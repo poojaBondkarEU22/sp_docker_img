@@ -10,4 +10,9 @@ public class TestRes {
     public String test() {
         return "testing again.. i failed";
     }
+
+    @RequestMapping("/testCicd")
+    public String testCicde() {
+        return "testing jenkins CI/CD";
+    }
 }
