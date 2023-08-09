@@ -36,7 +36,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>sp_docker_img</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
