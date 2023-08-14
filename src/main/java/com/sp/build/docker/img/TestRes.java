@@ -15,4 +15,10 @@ public class TestRes {
     public String testCicde() {
         return "testing jenkins CI/CD";
     }
+
+
+    @RequestMapping("/testJenkinsFileCicd")
+    public String testJenkinsFileCicd() {
+        return "testing jenkins file CI/CD";
+    }
 }
